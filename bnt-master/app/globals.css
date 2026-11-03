@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes custom-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-custom-marquee {
+  animation: custom-marquee 40s linear infinite;
+}
+
+@layer base {
+  /* Skala Typografii z Workspace Rules - Responsywna */
+  h1 {
+    @apply text-h1-mobile md:text-h1-tablet lg:text-h1-desktop font-heading text-brand-text;
+  }
+  
+  h2 {
+    @apply text-h2-mobile md:text-h2-tablet lg:text-h2-desktop font-heading text-brand-text;
+  }
+  
+  h3 {
+    @apply text-h3-mobile md:text-h3-tablet lg:text-h3-desktop font-heading text-brand-text;
+  }
+  
+  h4 {
+    @apply text-h4-mobile md:text-h4-tablet lg:text-h4-desktop font-heading text-brand-text;
+  }
+
+  p, body {
+    @apply text-body-mobile lg:text-body-desktop font-body text-brand-muted;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  small, caption {
+    @apply text-small-mobile lg:text-small-desktop font-body text-brand-muted;
+  }
+}
