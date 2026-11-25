@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.db
+*.db-*
+media/
+*.tsbuildinfo
+
+*.db.*.bak
+test-results/
+playwright-report/
+.DS_Store

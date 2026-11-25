@@ -7,37 +7,23 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    // Rygorystyczny system odstępów (nadpisuje domyślny)
-    spacing: {
-      0: "0",
-      px: "1px",
-      1: "0.25rem",  // 4px
-      2: "0.5rem",   // 8px
-      3: "0.75rem",  // 12px
-      4: "1rem",     // 16px
-      6: "1.5rem",   // 24px
-      8: "2rem",     // 32px
-      12: "3rem",    // 48px
-      16: "4rem",    // 64px
-      24: "6rem",    // 96px
-      32: "8rem",    // 128px
-      // Zmienne sekcji
-      "section-mobile": "3rem",  // 48px
-      "section-tablet": "4rem",  // 64px
-      "section-desktop": "6rem", // 96px (lub 8rem / 128px)
-    },
     extend: {
+      spacing: {
+        "section-mobile": "var(--section-space-mobile)",
+        "section-tablet": "var(--section-space-tablet)",
+        "section-desktop": "var(--section-space-desktop)",
+      },
       colors: {
         brand: {
-          primary: "#1E3A5F", // Zgaszony, korporacyjny stalowy granat
-          primaryHover: "#0F2942", // Głębszy odcień na hover
-          text: "#18181B",
-          muted: "#52525B",
-          bg: "#FFFFFF",
-          surface: "#F4F4F5",
-          dark: "#18181B",
-          deepDark: "#0A0E14", // Asymetryczne czarne/techniczne tło
-          border: "#E4E4E7",
+          primary: "var(--brand-primary)",
+          primaryHover: "var(--brand-primary-hover)",
+          text: "var(--brand-text)",
+          muted: "var(--brand-muted)",
+          bg: "var(--brand-bg)",
+          surface: "var(--brand-surface)",
+          dark: "var(--brand-dark)",
+          deepDark: "var(--brand-deep-dark)",
+          border: "var(--brand-border)",
         },
       },
       fontFamily: {
@@ -66,6 +52,11 @@ const config: Config = {
         "body-mobile": ["0.9375rem", { lineHeight: "1.6", fontWeight: "400" }], // 15px
         "body-desktop": ["1rem", { lineHeight: "1.6", fontWeight: "400" }],     // 16px
         "body-medium": ["1rem", { lineHeight: "1.6", fontWeight: "500" }],      // 16px medium
+        "lead-mobile": ["1.125rem", { lineHeight: "1.65", fontWeight: "300" }],
+        "lead-tablet": ["1.375rem", { lineHeight: "1.65", fontWeight: "300" }],
+        "display-mobile": ["2.5rem", { lineHeight: "1.08", fontWeight: "700" }],
+        "display-tablet": ["3.5rem", { lineHeight: "1.08", fontWeight: "700" }],
+        "display-desktop": ["4.5rem", { lineHeight: "1.08", fontWeight: "700" }],
         // Small
         "small-mobile": ["0.8125rem", { lineHeight: "1.4", fontWeight: "400" }], // 13px
         "small-desktop": ["0.875rem", { lineHeight: "1.4", fontWeight: "400" }],  // 14px
@@ -87,6 +78,15 @@ const config: Config = {
         'marquee-left': 'marqueeLeft 40s linear infinite',
         slowPulse: 'slowPulse 3s ease-in-out infinite',
         shimmer: 'shimmer 1.5s infinite',
+      },
+      borderRadius: {
+        button: "0px",
+        card: "var(--radius-card)",
+        panel: "var(--radius-panel)",
+      },
+      boxShadow: {
+        card: "var(--shadow-card)",
+        panel: "var(--shadow-panel)",
       },
     },
   },

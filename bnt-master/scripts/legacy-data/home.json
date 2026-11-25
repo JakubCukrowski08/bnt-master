@@ -1,0 +1,116 @@
+{
+  "headers": [
+    {
+      "title": "Wsparcie inwestycji na każdym etapie",
+      "lead": "Zakres współpracy dobieramy do etapu i potrzeb projektu: od weryfikacji dokumentacji i nadzoru inwestorskiego po koordynację wykonawców oraz odbiory.",
+      "size": "xl"
+    },
+    {
+      "title": "Rzetelna kontrola. Jasny zakres.",
+      "lead": "Niezależna kontrola i uporządkowana komunikacja pomagają inwestorowi podejmować decyzje na podstawie aktualnych informacji z budowy.",
+      "size": "lg",
+      "className": "mb-12"
+    },
+    {
+      "title": "Przejrzysty przebieg współpracy",
+      "lead": "Ustalamy zakres odpowiedzialności i sposób raportowania, a następnie wspieramy inwestora w kontroli kolejnych etapów realizacji.",
+      "size": "xl"
+    },
+    {
+      "title": "Realizacje nadzoru inwestorskiego we Wrocławiu",
+      "lead": "Zobacz wybrane projekty mieszkaniowe z Wrocławia i sprawdź ich lokalizację, skalę oraz opisany zakres.",
+      "size": "xl"
+    },
+    {
+      "title": "Pytania o nadzór i obsługę inwestycji",
+      "align": "center",
+      "size": "lg",
+      "className": "mb-12"
+    },
+    {
+      "title": "Zaplanujmy Twoją inwestycję",
+      "lead": "Opisz lokalizację, etap projektu i zakres potrzebnego wsparcia. Wspólnie ustalimy, jak możemy pomóc.",
+      "theme": "dark",
+      "size": "xl",
+      "className": "mb-10 md:mb-12"
+    }
+  ],
+  "arrays": [
+    [
+      {
+        "num": "01",
+        "title": "Zgodność z dokumentacją",
+        "desc": "Kontrola jakości robót i weryfikacja ich zgodności z projektem oraz wymaganiami inwestycji."
+      },
+      {
+        "num": "02",
+        "title": "Koordynacja uczestników",
+        "desc": "Bieżąca współpraca z inwestorem, projektantem, wykonawcami i pozostałymi uczestnikami procesu."
+      },
+      {
+        "num": "03",
+        "title": "Harmonogram i koszty",
+        "desc": "Weryfikacja postępu prac i rozliczeń pomaga wcześniej zauważyć odchylenia od planu."
+      },
+      {
+        "num": "04",
+        "title": "Odbiory i dokumentacja",
+        "desc": "Wsparcie przy odbiorach częściowych i końcowych oraz kompletowaniu dokumentacji inwestycji."
+      }
+    ],
+    [
+      {
+        "num": "01",
+        "title": "Rozpoznanie",
+        "desc": "Poznajemy lokalizację, etap projektu i potrzeby inwestora."
+      },
+      {
+        "num": "02",
+        "title": "Zakres współpracy",
+        "desc": "Ustalamy zadania, odpowiedzialność i potrzebną dokumentację."
+      },
+      {
+        "num": "03",
+        "title": "Koordynacja",
+        "desc": "Wspieramy komunikację uczestników i kontrolę przebiegu robót."
+      },
+      {
+        "num": "04",
+        "title": "Kontrola",
+        "desc": "Weryfikujemy jakość, zgodność z projektem i postęp prac."
+      },
+      {
+        "num": "05",
+        "title": "Odbiory",
+        "desc": "Pomagamy przejść przez odbiory i uporządkować dokumentację."
+      }
+    ],
+    [
+      {
+        "question": "Jaki jest zakres nadzoru inwestorskiego?",
+        "answer": "Zakres może obejmować kontrolę zgodności robót z projektem i przepisami, weryfikację jakości oraz postępu prac, udział w naradach i odbiorach. Szczegółowe obowiązki wynikają z ustaleń dla konkretnej inwestycji."
+      },
+      {
+        "question": "Gdzie BNT świadczy usługi budowlane?",
+        "answer": "Obsługujemy inwestycje we Wrocławiu i na terenie województwa dolnośląskiego. Zapytania dotyczące projektów poza tym obszarem można omówić indywidualnie."
+      },
+      {
+        "question": "Czy możecie wesprzeć inwestycję na różnych etapach?",
+        "answer": "Tak. Oferta obejmuje między innymi weryfikację dokumentacji, doradztwo techniczne, nadzór i kierowanie robotami, koordynację uczestników procesu oraz wsparcie przy odbiorach."
+      },
+      {
+        "question": "Jak przygotować zapytanie o współpracę?",
+        "answer": "Warto podać lokalizację i rodzaj inwestycji, jej aktualny etap, planowany zakres wsparcia oraz dostępne dokumenty. Ułatwi to wstępne określenie potrzeb i dalszych kroków."
+      }
+    ]
+  ],
+  "hero": {
+    "src": "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&q=80&w=2000",
+    "alt": "Współczesna zabudowa mieszkaniowa",
+    "title": "Nadzór inwestorski we Wrocławiu",
+    "scrollHint": "Przewiń, aby zobaczyć więcej"
+  },
+  "paragraphs": [
+    "BNT wspiera inwestorów w prowadzeniu projektów budowlanych w regionie. W portfolio znajdują się między innymi etapy osiedla Brzozowe Zacisze na Maślicach oraz Kępa Park na Kępie Mieszczańskiej. Opisy realizacji przedstawiają ich lokalizację, podstawowe parametry i rolę nadzoru inwestorskiego."
+  ]
+}

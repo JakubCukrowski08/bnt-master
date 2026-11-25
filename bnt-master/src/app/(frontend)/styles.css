@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+@import '@intecion/ipal-kit/fluid-wide.css';
+@import '@intecion/ipal-kit/tokens.css';
+@import '@intecion/ipal-kit/tailwind.css';
+@import '../../design/tokens.css';
+@source '../../../node_modules/@intecion/ipal-kit/dist/**/*.js';
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

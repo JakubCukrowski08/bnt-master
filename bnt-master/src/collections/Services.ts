@@ -1,0 +1,3 @@
+import type { CollectionConfig } from 'payload'
+import { common, text, json, access, hooks } from '@/fields/EntryFields'
+export const Services: CollectionConfig = { slug: 'services', labels: { singular: { en: 'Service', pl: 'Usługa' }, plural: { en: 'Services', pl: 'Usługi' } }, access, hooks, defaultSort: 'sortOrder', admin: { useAsTitle: 'title', defaultColumns: ['title', 'slug', 'sortOrder'] }, fields: [...common, { type: 'collapsible', label: { en: 'Imported source', pl: 'Dane źródłowe' }, admin: { initCollapsed: true }, fields: [text('legacyId'), text('lead'), ...['introSection', 'calloutSection', 'gridSection', 'darkSection', 'sections'].map(json)] }] }

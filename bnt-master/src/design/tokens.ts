@@ -1,0 +1,2 @@
+import { defineTokens } from '@intecion/ipal-kit/tokens'
+export const tokens = defineTokens({ theme: 'light', fluid: 'wide', color: { light: { primary: '#1e3a5f', 'primary-hover': '#0f2942', bg: '#ffffff', 'surface-muted': '#f4f4f5', text: '#18181b', 'text-muted': '#52525b', 'surface-inverse': '#0a0e14', 'primary-inverse': '#b9d5f5', 'primary-inverse-text': '#0a0e14', 'link-inverse': '#b9d5f5' } }, font: { fwHeading: 600 }, radius: { card: '0rem', control: '0rem' } })
